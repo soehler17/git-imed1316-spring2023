@@ -1,0 +1,97 @@
+@import "main.css";
+@import "custom.css";
+
+.carousel-alternate {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .carousel {
+    display: none;
+  }
+
+  .carousel-alternate {
+    display: block;
+    width: 100%;
+  }
+}
+
+.fa-row {
+  background-color: var(--dominantColor) !important;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  font-weight: bold;
+  font-family: "Cinzel";
+}
+
+.fa-solid {
+  font-size: 60px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.fa-solid:hover {
+  transform: scale(1.1);
+}
+
+.fa-row a,
+.fa-row a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.first-paragraph-div {
+  position: relative;
+  background-color: #fffffd;
+  padding: 25px;
+  height: auto;
+  min-width: 450px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Cinzel";
+}
+
+.first-paragraph-img {
+  position: relative;
+  float: left;
+  padding-right: 18px;
+}
+
+@media (max-width: 900px) {
+  .first-paragraph-img {
+    width: 100%;
+    float: none;
+    padding: 0px;
+  }
+}
+
+.btn-first-paragraph {
+  position: relative;
+  float: left;
+  clear: both;
+  margin-top: 18px;
+  border-color: var(--secondaryColor) !important;
+  color: var(--secondaryColor) !important;
+}
+
+.btn-first-paragraph:hover {
+  border-color: var(--dominantColor) !important;
+  color: #ffffff !important;
+  background-color: var(--dominantColor) !important;
+}
+
+.cropped {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  border-radius: 50%;
+  clip-path: circle(50% at 50% 50%);
+  border: 10px solid var(--secondaryColor) !important;
+}
+
+.members {
+  padding-bottom: 20px;
+}
